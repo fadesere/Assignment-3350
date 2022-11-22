@@ -1,0 +1,51 @@
+\documentclass{report}
+\usepackage{booktabs}
+\begin{document}\begin{center}
+\begin{tabular}{lclc}
+\toprule
+\textbf{Dep. Variable:}                        & Assessed\_Value  & \textbf{  R-squared:         } &      0.603   \\
+\textbf{Model:}                                &       OLS        & \textbf{  Adj. R-squared:    } &      0.603   \\
+\textbf{Method:}                               &  Least Squares   & \textbf{  F-statistic:       } &      1978.   \\
+\textbf{Date:}                                 & Tue, 22 Nov 2022 & \textbf{  Prob (F-statistic):} &      0.00    \\
+\textbf{Time:}                                 &     10:53:10     & \textbf{  Log-Likelihood:    } & -2.5446e+05  \\
+\textbf{No. Observations:}                     &       19550      & \textbf{  AIC:               } &  5.090e+05   \\
+\textbf{Df Residuals:}                         &       19534      & \textbf{  BIC:               } &  5.091e+05   \\
+\textbf{Df Model:}                             &          15      & \textbf{                     } &              \\
+\textbf{Covariance Type:}                      &    nonrobust     & \textbf{                     } &              \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lcccccc}
+                                               & \textbf{coef} & \textbf{std err} & \textbf{t} & \textbf{P$> |$t$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
+\midrule
+\textbf{Intercept}                             &    2.386e+05  &     4350.476     &    54.851  &         0.000        &      2.3e+05    &     2.47e+05     \\
+\textbf{C(Neighbourhood)[T.CENTRAL MCDOUGALL]} &   -8.511e+04  &     6411.781     &   -13.274  &         0.000        &    -9.77e+04    &    -7.25e+04     \\
+\textbf{C(Neighbourhood)[T.DOWNTOWN]}          &    1.143e+05  &     4668.293     &    24.488  &         0.000        &     1.05e+05    &     1.23e+05     \\
+\textbf{C(Neighbourhood)[T.GLENORA]}           &    1.295e+05  &     5612.283     &    23.083  &         0.000        &     1.19e+05    &     1.41e+05     \\
+\textbf{C(Neighbourhood)[T.GROVENOR]}          &   -3.272e+04  &     5893.149     &    -5.553  &         0.000        &    -4.43e+04    &    -2.12e+04     \\
+\textbf{C(Neighbourhood)[T.MCCAULEY]}          &   -3.642e+04  &     5994.922     &    -6.075  &         0.000        &    -4.82e+04    &    -2.47e+04     \\
+\textbf{C(Neighbourhood)[T.MCQUEEN]}           &   -7.864e+04  &     7186.987     &   -10.942  &         0.000        &    -9.27e+04    &    -6.46e+04     \\
+\textbf{C(Neighbourhood)[T.NORTH GLENORA]}     &   -5.133e+04  &     6414.950     &    -8.002  &         0.000        &    -6.39e+04    &    -3.88e+04     \\
+\textbf{C(Neighbourhood)[T.OLIVER]}            &    7.812e+04  &     4456.657     &    17.528  &         0.000        &     6.94e+04    &     8.69e+04     \\
+\textbf{C(Neighbourhood)[T.QUEEN MARY PARK]}   &    -3.37e+04  &     5058.917     &    -6.662  &         0.000        &    -4.36e+04    &    -2.38e+04     \\
+\textbf{C(Neighbourhood)[T.RIVERDALE]}         &    8.226e+04  &     5837.312     &    14.092  &         0.000        &     7.08e+04    &     9.37e+04     \\
+\textbf{C(Neighbourhood)[T.ROSSDALE]}          &    1.491e+05  &     7381.048     &    20.199  &         0.000        &     1.35e+05    &     1.64e+05     \\
+\textbf{C(Neighbourhood)[T.WESTMOUNT]}         &    6.536e+04  &     4940.128     &    13.231  &         0.000        &     5.57e+04    &      7.5e+04     \\
+\textbf{C(Garage)[T.Y]}                        &    1.111e+05  &     3557.966     &    31.215  &         0.000        &     1.04e+05    &     1.18e+05     \\
+\textbf{Lot\_Size}                             &     459.7867  &        7.405     &    62.094  &         0.000        &      445.273    &      474.301     \\
+\textbf{Age\_Property}                         &   -2643.8404  &       36.279     &   -72.875  &         0.000        &    -2714.951    &    -2572.730     \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lclc}
+\textbf{Omnibus:}       & 7078.552 & \textbf{  Durbin-Watson:     } &     1.806  \\
+\textbf{Prob(Omnibus):} &   0.000  & \textbf{  Jarque-Bera (JB):  } & 29768.030  \\
+\textbf{Skew:}          &   1.758  & \textbf{  Prob(JB):          } &      0.00  \\
+\textbf{Kurtosis:}      &   7.918  & \textbf{  Cond. No.          } &  6.83e+03  \\
+\bottomrule
+\end{tabular}
+%\caption{OLS Regression Results}
+\end{center}
+
+Notes: \newline
+ [1] Standard Errors assume that the covariance matrix of the errors is correctly specified. \newline
+ [2] The condition number is large, 6.83e+03. This might indicate that there are \newline
+ strong multicollinearity or other numerical problems.\end{document}

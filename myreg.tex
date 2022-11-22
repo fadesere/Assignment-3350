@@ -1,0 +1,65 @@
+\documentclass{report}
+\usepackage{booktabs}
+\begin{document}\begin{center}
+\begin{tabular}{lclc}
+\toprule
+\textbf{Dep. Variable:}     & Assessed\_Value  & \textbf{  R-squared:         } &      0.685   \\
+\textbf{Model:}             &       OLS        & \textbf{  Adj. R-squared:    } &      0.685   \\
+\textbf{Method:}            &  Least Squares   & \textbf{  F-statistic:       } &  2.240e+04   \\
+\textbf{Date:}              & Mon, 21 Nov 2022 & \textbf{  Prob (F-statistic):} &      0.00    \\
+\textbf{Time:}              &     21:57:50     & \textbf{  Log-Likelihood:    } & -3.7971e+06  \\
+\textbf{No. Observations:}  &      299007      & \textbf{  AIC:               } &  7.594e+06   \\
+\textbf{Df Residuals:}      &      298977      & \textbf{  BIC:               } &  7.595e+06   \\
+\textbf{Df Model:}          &          29      & \textbf{                     } &              \\
+\textbf{Covariance Type:}   &    nonrobust     & \textbf{                     } &              \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lcccccc}
+                            & \textbf{coef} & \textbf{std err} & \textbf{t} & \textbf{P$> |$t$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
+\midrule
+\textbf{Intercept}          &    2.474e+05  &     1183.031     &   209.152  &         0.000        &     2.45e+05    &      2.5e+05     \\
+\textbf{C(Ward)[T.Ward 10]} &    4.414e+04  &      703.541     &    62.738  &         0.000        &     4.28e+04    &     4.55e+04     \\
+\textbf{C(Ward)[T.Ward 11]} &   -1.917e+04  &      727.089     &   -26.359  &         0.000        &    -2.06e+04    &    -1.77e+04     \\
+\textbf{C(Ward)[T.Ward 12]} &   -1.842e+04  &      673.011     &   -27.367  &         0.000        &    -1.97e+04    &    -1.71e+04     \\
+\textbf{C(Ward)[T.Ward 2]}  &    -3.55e+04  &      735.176     &   -48.281  &         0.000        &    -3.69e+04    &    -3.41e+04     \\
+\textbf{C(Ward)[T.Ward 3]}  &   -3.358e+04  &      716.152     &   -46.888  &         0.000        &     -3.5e+04    &    -3.22e+04     \\
+\textbf{C(Ward)[T.Ward 4]}  &   -3.901e+04  &      706.115     &   -55.249  &         0.000        &    -4.04e+04    &    -3.76e+04     \\
+\textbf{C(Ward)[T.Ward 5]}  &    1.898e+04  &      715.489     &    26.526  &         0.000        &     1.76e+04    &     2.04e+04     \\
+\textbf{C(Ward)[T.Ward 6]}  &    9.418e+04  &      897.002     &   104.989  &         0.000        &     9.24e+04    &     9.59e+04     \\
+\textbf{C(Ward)[T.Ward 7]}  &   -3.745e+04  &      801.652     &   -46.716  &         0.000        &     -3.9e+04    &    -3.59e+04     \\
+\textbf{C(Ward)[T.Ward 8]}  &    1.099e+05  &      783.283     &   140.285  &         0.000        &     1.08e+05    &     1.11e+05     \\
+\textbf{C(Ward)[T.Ward 9]}  &    4.172e+04  &      669.151     &    62.341  &         0.000        &     4.04e+04    &      4.3e+04     \\
+\textbf{C(Zoning)[T.DC2]}   &   -3.853e+04  &     1274.941     &   -30.218  &         0.000        &     -4.1e+04    &     -3.6e+04     \\
+\textbf{C(Zoning)[T.HA]}    &    6.986e+04  &     2494.567     &    28.003  &         0.000        &      6.5e+04    &     7.47e+04     \\
+\textbf{C(Zoning)[T.HDR]}   &    -6.35e+04  &     2517.827     &   -25.219  &         0.000        &    -6.84e+04    &    -5.86e+04     \\
+\textbf{C(Zoning)[T.RA7]}   &   -6.547e+04  &     1117.664     &   -58.574  &         0.000        &    -6.77e+04    &    -6.33e+04     \\
+\textbf{C(Zoning)[T.RA8]}   &   -5.509e+04  &     1622.419     &   -33.955  &         0.000        &    -5.83e+04    &    -5.19e+04     \\
+\textbf{C(Zoning)[T.RA9]}   &   -1.344e+04  &     1394.815     &    -9.635  &         0.000        &    -1.62e+04    &    -1.07e+04     \\
+\textbf{C(Zoning)[T.RF1]}   &    2244.9404  &     1181.154     &     1.901  &         0.057        &      -70.089    &     4559.970     \\
+\textbf{C(Zoning)[T.RF2]}   &    5.537e+04  &     1858.024     &    29.801  &         0.000        &     5.17e+04    &      5.9e+04     \\
+\textbf{C(Zoning)[T.RF3]}   &    4.926e+04  &     1255.370     &    39.236  &         0.000        &     4.68e+04    &     5.17e+04     \\
+\textbf{C(Zoning)[T.RF4]}   &   -2.977e+04  &     1207.283     &   -24.662  &         0.000        &    -3.21e+04    &    -2.74e+04     \\
+\textbf{C(Zoning)[T.RF5]}   &   -5.103e+04  &     1157.333     &   -44.094  &         0.000        &    -5.33e+04    &    -4.88e+04     \\
+\textbf{C(Zoning)[T.RF6]}   &   -6.108e+04  &     1785.651     &   -34.208  &         0.000        &    -6.46e+04    &    -5.76e+04     \\
+\textbf{C(Zoning)[T.RMD]}   &   -3389.5224  &     1493.928     &    -2.269  &         0.023        &    -6317.580    &     -461.465     \\
+\textbf{C(Zoning)[T.RPL]}   &   -3341.2581  &     1233.741     &    -2.708  &         0.007        &    -5759.355    &     -923.161     \\
+\textbf{C(Zoning)[T.RSL]}   &    5.674e+04  &     1170.026     &    48.494  &         0.000        &     5.44e+04    &      5.9e+04     \\
+\textbf{C(Garage)[T.Y]}     &    3.435e+04  &      506.199     &    67.853  &         0.000        &     3.34e+04    &     3.53e+04     \\
+\textbf{Lot\_Size}          &     375.3902  &        1.377     &   272.578  &         0.000        &      372.691    &      378.089     \\
+\textbf{Age\_Property}      &   -2678.0976  &        9.671     &  -276.915  &         0.000        &    -2697.053    &    -2659.142     \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lclc}
+\textbf{Omnibus:}       & 122388.081 & \textbf{  Durbin-Watson:     } &     1.935   \\
+\textbf{Prob(Omnibus):} &    0.000   & \textbf{  Jarque-Bera (JB):  } & 789858.360  \\
+\textbf{Skew:}          &    1.851   & \textbf{  Prob(JB):          } &      0.00   \\
+\textbf{Kurtosis:}      &   10.050   & \textbf{  Cond. No.          } &  1.31e+04   \\
+\bottomrule
+\end{tabular}
+%\caption{OLS Regression Results}
+\end{center}
+
+Notes: \newline
+ [1] Standard Errors assume that the covariance matrix of the errors is correctly specified. \newline
+ [2] The condition number is large, 1.31e+04. This might indicate that there are \newline
+ strong multicollinearity or other numerical problems.\end{document}

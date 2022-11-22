@@ -1,0 +1,56 @@
+\documentclass{report}
+\usepackage{booktabs}
+\begin{document}\begin{center}
+\begin{tabular}{lclc}
+\toprule
+\textbf{Dep. Variable:}                      & Assessed\_Value  & \textbf{  R-squared:         } &      0.708   \\
+\textbf{Model:}                              &       OLS        & \textbf{  Adj. R-squared:    } &      0.707   \\
+\textbf{Method:}                             &  Least Squares   & \textbf{  F-statistic:       } &      2466.   \\
+\textbf{Date:}                               & Tue, 22 Nov 2022 & \textbf{  Prob (F-statistic):} &      0.00    \\
+\textbf{Time:}                               &     12:56:10     & \textbf{  Log-Likelihood:    } & -2.6066e+05  \\
+\textbf{No. Observations:}                   &       20409      & \textbf{  AIC:               } &  5.214e+05   \\
+\textbf{Df Residuals:}                       &       20388      & \textbf{  BIC:               } &  5.215e+05   \\
+\textbf{Df Model:}                           &          20      & \textbf{                     } &              \\
+\textbf{Covariance Type:}                    &    nonrobust     & \textbf{                     } &              \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lcccccc}
+                                             & \textbf{coef} & \textbf{std err} & \textbf{t} & \textbf{P$> |$t$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
+\midrule
+\textbf{Intercept}                           &    4.152e+05  &     3432.083     &   120.986  &         0.000        &     4.09e+05    &     4.22e+05     \\
+\textbf{C(Neighbourhood)[T.BONNIE DOON]}     &   -1.268e+05  &     3711.159     &   -34.166  &         0.000        &    -1.34e+05    &     -1.2e+05     \\
+\textbf{C(Neighbourhood)[T.CAPILANO]}        &   -2.092e+05  &     4035.570     &   -51.838  &         0.000        &    -2.17e+05    &    -2.01e+05     \\
+\textbf{C(Neighbourhood)[T.CLOVERDALE]}      &   -5.743e+04  &     5168.761     &   -11.110  &         0.000        &    -6.76e+04    &    -4.73e+04     \\
+\textbf{C(Neighbourhood)[T.FOREST HEIGHTS]}  &   -1.836e+05  &     3771.378     &   -48.690  &         0.000        &    -1.91e+05    &    -1.76e+05     \\
+\textbf{C(Neighbourhood)[T.FULTON PLACE]}    &    -2.42e+05  &     4158.793     &   -58.195  &         0.000        &     -2.5e+05    &    -2.34e+05     \\
+\textbf{C(Neighbourhood)[T.GARNEAU]}         &    -1.07e+04  &     3776.464     &    -2.834  &         0.005        &    -1.81e+04    &    -3300.977     \\
+\textbf{C(Neighbourhood)[T.GOLD BAR]}        &   -2.471e+05  &     4214.171     &   -58.630  &         0.000        &    -2.55e+05    &    -2.39e+05     \\
+\textbf{C(Neighbourhood)[T.HOLYROOD]}        &   -2.323e+05  &     4057.383     &   -57.260  &         0.000        &     -2.4e+05    &    -2.24e+05     \\
+\textbf{C(Neighbourhood)[T.IDYLWYLDE]}       &   -2.185e+05  &     4470.411     &   -48.867  &         0.000        &    -2.27e+05    &     -2.1e+05     \\
+\textbf{C(Neighbourhood)[T.KENILWORTH]}      &    -2.61e+05  &     4100.455     &   -63.647  &         0.000        &    -2.69e+05    &    -2.53e+05     \\
+\textbf{C(Neighbourhood)[T.MCKERNAN]}        &   -6.867e+04  &     4160.843     &   -16.504  &         0.000        &    -7.68e+04    &    -6.05e+04     \\
+\textbf{C(Neighbourhood)[T.OTTEWELL]}        &   -2.452e+05  &     3546.470     &   -69.139  &         0.000        &    -2.52e+05    &    -2.38e+05     \\
+\textbf{C(Neighbourhood)[T.QUEEN ALEXANDRA]} &   -1.157e+05  &     3828.189     &   -30.228  &         0.000        &    -1.23e+05    &    -1.08e+05     \\
+\textbf{C(Neighbourhood)[T.STRATHCONA]}      &   -3.626e+04  &     3597.005     &   -10.080  &         0.000        &    -4.33e+04    &    -2.92e+04     \\
+\textbf{C(Neighbourhood)[T.STRATHEARN]}      &   -1.555e+05  &     4581.238     &   -33.949  &         0.000        &    -1.65e+05    &    -1.47e+05     \\
+\textbf{C(Neighbourhood)[T.TERRACE HEIGHTS]} &   -2.319e+05  &     4646.908     &   -49.898  &         0.000        &    -2.41e+05    &    -2.23e+05     \\
+\textbf{C(Neighbourhood)[T.WINDSOR PARK]}    &    1.569e+05  &     6773.185     &    23.158  &         0.000        &     1.44e+05    &      1.7e+05     \\
+\textbf{C(Garage)[T.Y]}                      &    1.167e+05  &     2209.047     &    52.833  &         0.000        &     1.12e+05    &     1.21e+05     \\
+\textbf{Lot\_Size}                           &     542.0752  &        5.299     &   102.303  &         0.000        &      531.689    &      552.461     \\
+\textbf{Age\_Property}                       &   -3553.9028  &       32.747     &  -108.525  &         0.000        &    -3618.090    &    -3489.716     \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lclc}
+\textbf{Omnibus:}       & 5292.553 & \textbf{  Durbin-Watson:     } &     1.854  \\
+\textbf{Prob(Omnibus):} &   0.000  & \textbf{  Jarque-Bera (JB):  } & 17589.819  \\
+\textbf{Skew:}          &   1.304  & \textbf{  Prob(JB):          } &      0.00  \\
+\textbf{Kurtosis:}      &   6.725  & \textbf{  Cond. No.          } &  1.08e+04  \\
+\bottomrule
+\end{tabular}
+%\caption{OLS Regression Results}
+\end{center}
+
+Notes: \newline
+ [1] Standard Errors assume that the covariance matrix of the errors is correctly specified. \newline
+ [2] The condition number is large, 1.08e+04. This might indicate that there are \newline
+ strong multicollinearity or other numerical problems.\end{document}
